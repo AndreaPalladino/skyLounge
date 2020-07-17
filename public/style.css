@@ -9,7 +9,9 @@
   .second {
     height: 100vh;
     min-height: 200px;
-    background-color: rgb(255,255,255);
+    background-color: rgb(53, 126, 139);
+    clip-path: polygon(50% 0, 74% 50%, 100% 0, 100% 100%, 74% 50%, 50% 100%, 0 100%, 0 0);
+
   }
 
   html{
