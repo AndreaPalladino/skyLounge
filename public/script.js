@@ -1,15 +1,15 @@
-function scrollWin() {
+/* function scrollWin() {
   window.scrollTo(0, 900);
   duration=400
 }
-setTimeout(scrollWin,3000);
+setTimeout(scrollWin,3000); */
 
 document.addEventListener('scroll', ()=>{
   let navbar =document.querySelector('#navbar')
 
-  if(window.scrollY>120){
-      navbar.classList.add('bg-light')
+  if(window.scrollY>670){
+      navbar.classList.add('bg-navbar')
   }else{
-      navbar.classList.remove('bg-light')
+      navbar.classList.remove('bg-navbar')
   }
 })

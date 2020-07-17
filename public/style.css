@@ -7,11 +7,18 @@
     background-repeat: no-repeat;
   }
   .second {
+    height: 100%;
+  
+    width:100%;
+    background-color: rgba(53, 126, 139,0.5);
+    z-index: 999;
+    clip-path: polygon(50% 0, 74% 50%, 100% 0, 100% 100%, 74% 50%, 50% 100%, 0 100%, 0 0);
+  }
+
+  .third{
     height: 100vh;
     min-height: 200px;
-    background-color: rgb(53, 126, 139);
-    clip-path: polygon(50% 0, 74% 50%, 100% 0, 100% 100%, 74% 50%, 50% 100%, 0 100%, 0 0);
-
+    background-image: url('media/background.jpeg') ;
   }
 
   html{
@@ -32,4 +39,23 @@
   @keyframes animate{
     from{background-position: 0px;}
     to{background-position: -5440px;}
+  }
+
+  .bg-navbar{
+    background-color: rgb(255, 255, 255);
+    transition:0.5s;
+  }
+
+  .section-2{
+    height: 100vh;
+    min-height: 200px;
+    background:linear-gradient(rgba(255,255,255,1),transparent 80%), url('media/sky.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .opaque{
+    width: 750px ;
+    height: 150px ;
+    background-color: rgba(0,0,0,0.3);
   }
