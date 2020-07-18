@@ -8,18 +8,26 @@
   }
   .second {
     height: 100%;
-  
     width:100%;
-    background-color: rgba(53, 126, 139,0.5);
-    z-index: 999;
-    clip-path: polygon(50% 0, 74% 50%, 100% 0, 100% 100%, 74% 50%, 50% 100%, 0 100%, 0 0);
+    background-color: rgba(53, 126, 139,0.7);
+    z-index: 9999;
+    clip-path: polygon(0 0, 40% 0, 54% 50%, 40% 100%, 0 100%, 0% 50%);
+
+  }
+  .secondbis {
+    height: 100%;
+    width:100%;
+    background-color: rgba(53, 126, 139,0.7);
+    z-index: 9999;
+    clip-path: polygon(55% 0, 100% 0, 100% 50%, 100% 100%, 55% 100%, 42% 50%);
+    transform: translateY(-210px);
   }
 
-  .third{
+  /* .third{
     height: 100vh;
     min-height: 200px;
     background-image: url('media/background.jpeg') ;
-  }
+  } */
 
   html{
     scroll-behavior: smooth;
@@ -46,16 +54,50 @@
     transition:0.5s;
   }
 
-  .section-2{
+  /* .section-2{
     height: 100vh;
     min-height: 200px;
     background:linear-gradient(rgba(255,255,255,1),transparent 80%), url('media/sky.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
   }
-
-  .opaque{
+ */
+  /* .opaque{
     width: 750px ;
     height: 150px ;
     background-color: rgba(0,0,0,0.3);
+  } */
+
+  .bg-blue{
+    background-color: transparent;
   }
+  .bg-blue:hover{
+    background-color: rgba(17, 85, 113,0.9);
+    color:white;
+    transition: 0.5s;
+  }
+  .bar{
+    width:33%;
+    height: 2px;
+    background-color: rgba(17, 85, 113,1) ;
+  }
+
+  footer{
+    background-color: rgb(17, 85, 113);
+  }
+
+  .hrfooter{
+    height: 2px;
+
+    background-color: white;
+  }
+  .icon{
+    transform: translateX(0px);
+  }
+  .icon:hover{
+    transform: translateX(5px);
+  }
+  
+
+
+

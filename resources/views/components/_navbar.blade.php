@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
-            <a class="nav-link mx-5 h6 mt-2" href="{{route('home')}}">Home</a>
+            <a class="nav-link mx-5 h6 mt-2" href="{{route('pictures')}}">Immagini</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link mx-5 h6 mt-2" href="#">Camere</a>
