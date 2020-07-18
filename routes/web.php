@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Frontend@home')->name('home');
 
-Route::get('/Immagini', 'Frontend@pictures')->name('pictures');
+Route::get('/Prezzi', 'Frontend@prices')->name('prices');

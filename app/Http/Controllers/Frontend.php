@@ -10,7 +10,7 @@ class Frontend extends Controller
         return view('welcome');
     }
 
-    public function pictures(){
-        return view('pictures');
+    public function prices(){
+        return view('prices');
     }
 }

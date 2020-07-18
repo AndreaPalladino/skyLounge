@@ -19,7 +19,7 @@
         <div class="cloud"></div>
         <div class="col-12 text-left">
             <h3 class="font-weight-light">PORTIAMO IL TUO RIPOSO </h3>
-            <h1>SU UN<span class="h1 display-4 font-weight-bold"> ALTRO LIVELLO</span></h1>
+            <h1>SU UN<span class="h1 display-4 font-weight-bold text10"> ALTRO LIVELLO</span></h1>
           </div>
       </div>
     </div>
@@ -96,6 +96,50 @@
   </div>
 </div>
 
+<div class="container-fluid">
+  <h2 class="text-center">Immagini</h2>
+  <hr class="bar">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('media/skylounge.jpeg')">
+        <div class="carousel-caption d-none d-md-block slide__overlay slide__overlay:hover">
+          <h3 class="display-4 text-left mt-5 ml-4 ">First Slide</h3>
+          <p class="lead text-left mt-5 ml-4 ">This is a description for the first slide.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('media/bar.jpeg')">
+        <div class="carousel-caption d-none d-md-block slide__overlay slide__overlay:hover">
+          <h3 class="display-4 text-left mt-5 ml-4">Second Slide</h3>
+          <p class="lead text-left mt-5 ml-4">This is a description for the second slide.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('media/swing.jpeg')">
+        <div class="carousel-caption d-none d-md-block slide__overlay slide__overlay:hover">
+          <h3 class="display-4 text-left mt-5 ml-4">Third Slide</h3>
+          <p class="lead text-left mt-5 ml-4">This is a description for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('media/dream.jpeg')">
+        <div class="carousel-caption d-none d-md-block slide__overlay slide__overlay:hover ">
+          <h3 class="display-4 text-left mt-5 ml-4">Fourth Slide</h3>
+          <p class="lead text-left mt-5 ml-4">This is a description for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="" aria-hidden="true"><i class="fas fa-arrow-alt-circle-right fa-2x"></i></span>
+          
+        </a>
+  </div>
+</div>
 
 <div class="container-fluid py-5 my-5">
   <div class="row">

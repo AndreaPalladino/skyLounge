@@ -1,3 +1,15 @@
+:root{
+ --dieci:rgb(17, 85, 113);
+}
+
+.text10{
+  color:var(--dieci);
+}
+
+.bg10{
+  background-color:var(--dieci);
+}
+
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -97,6 +109,39 @@
   .icon:hover{
     transform: translateX(5px);
   }
+  
+  .carousel-item {
+    position: relative;
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .slide__overlay{
+    opacity:0;
+  }
+
+  .slide__overlay:hover  {
+    opacity: 1;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background-color: rgba(53, 126, 139,0.7);
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 36% 0, 100% 100%, 0% 100%);
+    transition: 0.5s linear;
+    
+  }
+  
+  .fa-arrow-alt-circle-right:before {
+    content: "\f35a";
+    color: var(--dieci);
+}
   
 
 
