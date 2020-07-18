@@ -1,5 +1,6 @@
 :root{
  --dieci:rgb(17, 85, 113);
+ --dieciopaq:rgba(17,85,113,0.3);
 }
 
 .text10{
@@ -143,6 +144,16 @@
     color: var(--dieci);
 }
   
+/* fine stile welcome */
 
+.box-bottom{
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  /* border-bottom: 2px linear var(--dieci) ; */
+}
 
-
+.bg10opaque{
+  background-color:var(--dieciopaq);
+}
