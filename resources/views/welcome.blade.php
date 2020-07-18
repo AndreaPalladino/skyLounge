@@ -25,7 +25,7 @@
     </div>
   </header>
 
-  <div class="corpo">
+  <div class="corpo mb-0">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 my-5">

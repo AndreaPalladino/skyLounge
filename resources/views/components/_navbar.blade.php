@@ -10,7 +10,7 @@
             <a class="nav-link mx-5 h6 mt-2" href="{{route('prices')}}">Prezzi</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link mx-5 h6 mt-2" href="#">Camere</a>
+            <a class="nav-link mx-5 h6 mt-2" href="{{route('rooms.index')}}">Camere</a>
           </li>
 
           <a class="navbar-brand d-none d-md-flex mx-5" href="{{route('home')}}"><img src="/media/logo.png" alt="" width="190" height="50"></a>
