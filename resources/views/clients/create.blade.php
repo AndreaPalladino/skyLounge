@@ -13,6 +13,8 @@
 
 <div class="bodyBooking">
 
+
+
 <div class="container py-5">
     <div class="row">
         <div class="col-12">
@@ -39,23 +41,23 @@
                 @csrf
                 <div class="form-group my-3">
                     <label for="exampleInputEmail1" class="text-white">Nome e Cognome</label>
-                    <input name="name" type="text" class="form-control bg-transparent box-bottom" >
+                    <input name="name" type="text" class="form-control bg-transparent box-bottom text-white" >
                    </div>
                 <div class="form-group my-3">
                   <label for="exampleInputEmail1" class="text-white">Email</label>
-                  <input name="email" type="email" class="form-control bg-transparent box-bottom" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input name="email" type="email" class="form-control bg-transparent box-bottom text-white" id="exampleInputEmail1" aria-describedby="emailHelp">
                  </div>
                 <div class="form-group my-3">
                   <label for="exampleInputPassword1" class="text-white">Numero</label>
-                  <input name="number" type="number" class="form-control bg-transparent box-bottom" id="exampleInputPasswo">
+                  <input name="number" type="number" class="form-control bg-transparent box-bottom text-white" id="exampleInputPasswo">
                 </div>
                 <div class="form-group my-3">
                     <label for="exampleInputPassword1" class="text-white">Data di Arrivo</label>
-                    <input name="checkIn" type="date" class="form-control bg-transparent box-bottom" id="exampleInputPasswor">
+                    <input name="checkIn" type="date" class="form-control bg-transparent box-bottom text-white" id="exampleInputPasswor">
                   </div>
                   <div class="form-group my-2 3">
                     <label for="exampleInputPassword1" class="text-white">Data di Partenza</label>
-                    <input name="checkOut" type="date" class="form-control bg-transparent box-bottom" id="exampleInputPassword1">
+                    <input name="checkOut" type="date" class="form-control bg-transparent box-bottom text-white" id="exampleInputPassword1">
                   </div>
                 <button type="submit" class="btn bg10 text-white mx-auto d-block">Submit</button>
               </form>

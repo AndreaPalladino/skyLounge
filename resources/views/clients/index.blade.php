@@ -43,9 +43,9 @@
                                 <td>{{$client->number}}</td>
                                 <td>{{$client->checkIn}}</td>
                                 <td>{{$client->checkOut}}</td>
-                                <td><a href=""><button class="btn bg10 text-white">VISUALIZZA</button></a></td>
-                                <td><a href=""><button class="btn btn-info">MODIFICA</button></a></td>
-                                <td>CANCELLA</td>
+                                <td><a href="{{route('clients.show', compact('client'))}}"><button class="btn bg10 text-white">VISUALIZZA</button></a></td>
+                                <td><a href="{{route('clients.edit', compact('client'))}}"><button class="btn btn-info">MODIFICA</button></a></td>
+                                <td><button class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">CANCELLA</button></td>
                             </tr>
                             @endforeach 
                         </tbody>
@@ -56,8 +56,26 @@
  </div>
         
 
-
-
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+          <form method="POST" action="{{route('clients.destroy', compact('client'))}}">
+            @method('DELETE')
+            @csrf
+              <h5 class="text-center">Sei davvero sicuro di voler cancellare la prenotazione?</h5>
+              <button type="submit" class="btn btn-danger mx-auto d-block mt-5">CANCELLA</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 

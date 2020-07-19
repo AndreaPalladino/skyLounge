@@ -18,8 +18,8 @@
       <div class="row h-100 align-items-center">
         <div class="cloud"></div>
         <div class="col-12 text-left">
-            <h3 class="font-weight-light">PORTIAMO IL TUO RIPOSO </h3>
-            <h1>SU UN<span class="h1 display-4 font-weight-bold text10"> ALTRO LIVELLO</span></h1>
+            <h3 class="font-weight-light">PORTIAMO IL TUO RELAX </h3>
+            <h3>SU UN<span class="h1 display-4 font-weight-bold text10"> ALTRO LIVELLO</span></h3>
           </div>
       </div>
     </div>
@@ -99,7 +99,7 @@
 <div class="container-fluid">
   <h2 class="text-center">Immagini</h2>
   <hr class="bar">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" {{-- data-interval="false" --}}>
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
