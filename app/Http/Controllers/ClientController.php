@@ -14,7 +14,9 @@ class ClientController extends Controller
      */
     public function index()
     {
-        //
+        $clients=Client::all();
+
+        return view('clients.index', compact('clients'));
     }
 
     /**
@@ -24,7 +26,7 @@ class ClientController extends Controller
      */
     public function create()
     {
-        //
+        return view('clients.create');
     }
 
     /**
@@ -35,7 +37,11 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $client = new Client();
+
+        $client=Client::create($request->all());
+
+        return redirect()->back()->with('message', 'Complimenti! Prenotazione effettuata!');
     }
 
     /**

@@ -7,7 +7,7 @@
                     <a href="{{route('prices')}}"><li class="text-white icon icon:hover">Prezzi</li></a>
                     <a href="{{route('rooms.index')}}"><li class="text-white icon icon:hover">Camere</li></a>
                     <a href="#"><li class="text-white icon icon:hover">Servizi</li></a>
-                    <a href="#"><li class="text-white icon icon:hover">Prenotazioni</li></a>
+                    <a href="{{route('clients.create')}}"><li class="text-white icon icon:hover">Prenotazioni</li></a>
                 </ul>
             </div>
             <div class="col-4 my-5">

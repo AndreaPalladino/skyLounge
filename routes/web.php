@@ -24,3 +24,8 @@ Route::get('/Camere/create', 'RoomController@create')->name('rooms.create');
 Route::post('/Camere/post', 'RoomController@store')->name('rooms.store');
 Route::get('/Camere/index', 'RoomController@index')->name('rooms.index');
 Route::get('/Camere/show/{room}', 'RoomController@show')->name('rooms.show');
+
+
+Route::get('/Prenota/create', 'ClientController@create')->name('clients.create');
+Route::post('/Prenota/store', 'ClientController@store')->name('clients.store');
+Route::get('/Prenota/index', 'ClientController@index')->name('clients.index');

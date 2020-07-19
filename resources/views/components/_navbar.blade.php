@@ -20,7 +20,7 @@
             <a class="nav-link mx-5 h6 mt-2" href="#">Servizi</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link mx-5 h6 mt-2" href="#">Prenota</a>
+            <a class="nav-link mx-5 h6 mt-2" href="{{route('clients.create')}}">Prenota</a>
           </li>
         </ul>
       </div>

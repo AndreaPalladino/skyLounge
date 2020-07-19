@@ -39,7 +39,7 @@ height: 100vh;
   </div>
         <div class="col-md-3 mt-5">
             <form action="#" method="get">
-                <div class="input-group box-bottom">
+                <div class="input-group">
                     <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
                     <input class="box-bottom" id="system-search" name="q" placeholder="Search for" required>
                     <span class="input-group-btn">
