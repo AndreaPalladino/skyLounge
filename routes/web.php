@@ -17,6 +17,10 @@ Route::get('/', 'Frontend@home')->name('home');
 
 Route::get('/Prezzi', 'Frontend@prices')->name('prices');
 
+Route::get('/Servizi', 'Frontend@services')->name('services');
+
+Route::get('/Servizi/{name}', 'Frontend@details')->name('details');
+
 
 
 

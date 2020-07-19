@@ -3,6 +3,15 @@
  --dieciopaq:rgba(17,85,113,0.3);
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+p{
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+
 .text10{
   color:var(--dieci);
 }
@@ -213,3 +222,4 @@
 .wrapperedit{
   background-color: rgba(0,0,0,0.8);
 }
+

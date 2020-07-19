@@ -18,7 +18,7 @@ class CreateRoomsTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->string('type');
-            $table->binary('img')->from('/media');
+            $table->binary('img');
             $table->timestamps();
         });
     }
