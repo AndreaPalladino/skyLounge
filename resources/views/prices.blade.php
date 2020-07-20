@@ -52,37 +52,37 @@ height: 100vh;
        <table class="table table-list-search">
                     <thead>
                         <tr>
-                            <th class="bg10 text-white my-auto">Stagione</th>
-                            <th class="bg10 text-white mx-auto">Camera con Servizi</th>
-                            <th class="bg10 text-white mx-auto">Camera con Servizi e Balcone</th>
-                            <th class="bg10 text-white mx-auto">Camera con Servizi e Balcone su Montagne</th>
-                            <th class="bg10 text-white mx-auto">Camera con Servizi e Terrazzo Panoramico</th>
+                            <th class="bg30 text-white my-auto">Stagione</th>
+                            <th class="bg30 text-white mx-auto">Camera con Servizi</th>
+                            <th class="bg30 text-white mx-auto">Camera con Servizi e Balcone</th>
+                            <th class="bg30 text-white mx-auto">Camera con Servizi e Balcone su Montagne</th>
+                            <th class="bg30 text-white mx-auto">Camera con Servizi e Terrazzo Panoramico</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="bg10 text-white my-auto">Autunno</td>
+                            <td class="bg30 text-white my-auto">Autunno</td>
                             <td>€ 67</td>
                             <td>€ 88</td>
                             <td>€ 112</td>
                             <td>€ 135</td>
                         </tr>
                         <tr>
-                            <td class="bg10 text-white my-auto">Inverno</td>
+                            <td class="bg30 text-white my-auto">Inverno</td>
                             <td>€ 98</td>
                             <td>€ 112</td>
                             <td>€ 132</td>
                             <td>€ 145</td>
                         </tr>
                         <tr>
-                            <td class="bg10 text-white my-auto">Primavera</td>
+                            <td class="bg30 text-white my-auto">Primavera</td>
                             <td>€ 101</td>
                             <td>€ 135</td>
                             <td>€ 146</td>
                             <td>€ 165</td>
                         </tr>
                         <tr>
-                          <td class="bg10 text-white my-auto">Estate</td>
+                          <td class="bg30 text-white my-auto">Estate</td>
                           <td>€ 120</td>
                           <td>€ 145</td>
                           <td>€ 168</td>

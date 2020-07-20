@@ -18,7 +18,7 @@ class CreateRoomsTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->string('type');
-            $table->binary('img');
+            $table->string('img')->default('https://picsum.photos/200/300');
             $table->timestamps();
         });
     }

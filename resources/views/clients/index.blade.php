@@ -26,26 +26,26 @@
            <table class="table table-list-search">
                         <thead>
                             <tr>
-                                <th class="bg10 text-white my-auto">ID</th>
-                                <th class="bg10 text-white mx-auto">Nome</th>
-                                <th class="bg10 text-white mx-auto">E-mail</th>
-                                <th class="bg10 text-white mx-auto">Nr. di persone</th>
-                                <th class="bg10 text-white mx-auto">Data CheckIn</th>
-                                <th class="bg10 text-white mx-auto">Data CheckOut</th>
+                                <th class="bg30 text-white my-auto">ID</th>
+                                <th class="bg30 text-white mx-auto">Nome</th>
+                                <th class="bg30 text-white mx-auto">E-mail</th>
+                                <th class="bg30 text-white mx-auto">Nr. di persone</th>
+                                <th class="bg30 text-white mx-auto">Data CheckIn</th>
+                                <th class="bg30 text-white mx-auto">Data CheckOut</th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach($clients as $client)
                             <tr>
-                                <td class="bg10 text-white my-auto">{{$client->id}}</td>
+                                <td class="bg30 text-white my-auto">{{$client->id}}</td>
                                 <td>{{$client->name}}</td>
                                 <td>{{$client->email}}</td>
                                 <td>{{$client->number}}</td>
                                 <td>{{$client->checkIn}}</td>
                                 <td>{{$client->checkOut}}</td>
-                                <td><a href="{{route('clients.show', compact('client'))}}"><button class="btn bg10 text-white">VISUALIZZA</button></a></td>
-                                <td><a href="{{route('clients.edit', compact('client'))}}"><button class="btn btn-info">MODIFICA</button></a></td>
-                                <td><button class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">CANCELLA</button></td>
+                                <td class="d-block d-md-flex"><a href="{{route('clients.show', compact('client'))}}"><button class="btn bg10 text-white">VISUALIZZA</button></a></td>
+                                <td class="d-block d-md-flex"><a href="{{route('clients.edit', compact('client'))}}"><button class="btn bg30 text-white">MODIFICA</button></a></td>
+                                <td class="d-block d-md-flex"><button class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">CANCELLA</button></td>
                             </tr>
                             @endforeach 
                         </tbody>

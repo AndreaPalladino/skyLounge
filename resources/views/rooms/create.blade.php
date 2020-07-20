@@ -25,10 +25,10 @@
   
     
   
-    <div class="custom-file mb-3">
+    {{-- <div class="custom-file mb-3">
       <input name="img" type="file" class="custom-file-input" id="validatedCustomFile" required>
       <label class="custom-file-label" for="validatedCustomFile">Scegli un file...</label>
-    </div>
+    </div> --}}
   
   
     <div class="form-group mt-4">

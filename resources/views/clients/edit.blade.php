@@ -63,8 +63,8 @@
                         <label for="exampleInputPassword1" class="text-white">Data di Partenza</label>
                         <input name="checkOut" type="date" class="form-control bg-transparent box-bottom text-white" value="{{$client->checkOut}}" id="exampleInputPassword1">
                       </div>
-                    <button type="submit" class="btn bg10 text-white mx-auto d-block">MODIFICA</button>
-                    <a href="{{route('clients.index')}}" class="btn bg10 text-white">INDIETRO</a>
+                    <button type="submit" class="btn bg10 text-white mx-auto d-block mt-2 w-25">MODIFICA</button>
+                    <a href="{{route('clients.index')}}" class="btn bg30 text-white d-block mx-auto w-25 mt-2">INDIETRO</a>
                   </form>
                 </div>
             </div>

@@ -69,11 +69,11 @@
 <div class="container-fluid my-5 py-5 second" data-aos="fade-right" data-aos-delay="500">
   <div class="row">
     <div class="col-12 mt-5" >
-      <h2 class="text-left">TheSkyLounge</h2>
-      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+      <h2 class="text-left text10">TheSkyLounge</h2>
+      <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
       
       Asperiores animi assumenda tempore unde eligendi mollitia nostrum.</p>
-      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+      <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
       
       Asperiores animi assumenda tempore unde eligendi mollitia nostrum.</p>
     
@@ -84,11 +84,11 @@
 <div class="container-fluid secondbis" >
   <div class="row">
     <div class="col-12 mt-5" >
-      <h2 class="text-right py-3">TheSkyLounge</h2>
-      <p class="lead text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+      <h2 class="text-right py-3 text10">TheSkyLounge</h2>
+      <p class="lead text-right text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
       
       Asperiores animi assumenda tempore unde eligendi mollitia nostrum.</p>
-      <p class="lead text-right pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+      <p class="lead text-right pb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
       
       Asperiores animi assumenda tempore unde eligendi mollitia nostrum.</p>
       

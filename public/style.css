@@ -1,6 +1,8 @@
 :root{
- --dieci:rgb(17, 85, 113);
+ --trenta:rgb(17, 85, 113);
+ --dieci:#ff6300;
  --dieciopaq:rgba(17,85,113,0.3);
+/* --dieciopaq:rgba(255, 99, 0, 0.3); */
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -20,6 +22,10 @@ p{
   background-color:var(--dieci);
 }
 
+.bg30{
+  background-color:var(--trenta);
+}
+
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -31,7 +37,7 @@ p{
   .second {
     height: 100%;
     width:100%;
-    background-color: rgba(53, 126, 139,0.7);
+    background-color: rgba(17, 85, 113,0.9);
     z-index: 9999;
     clip-path: polygon(0 0, 40% 0, 54% 50%, 40% 100%, 0 100%, 0% 50%);
 
@@ -39,7 +45,7 @@ p{
   .secondbis {
     height: 100%;
     width:100%;
-    background-color: rgba(53, 126, 139,0.7);
+    background-color: rgba(17, 85, 113,0.9);
     z-index: 9999;
     clip-path: polygon(55% 0, 100% 0, 100% 50%, 100% 100%, 55% 100%, 42% 50%);
     transform: translateY(-210px);
@@ -101,7 +107,7 @@ p{
   .bar{
     width:33%;
     height: 2px;
-    background-color: rgba(17, 85, 113,1) ;
+    background-color: var(--dieci) ;
   }
 
   footer{
@@ -111,7 +117,7 @@ p{
   .hrfooter{
     height: 2px;
 
-    background-color: white;
+    background-color: var(--dieci);
   }
   .icon{
     transform: translateX(0px);

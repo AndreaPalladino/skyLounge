@@ -18,7 +18,7 @@
     <div class="row">
         <div class="col-12">
             <div class="card text-center">
-                <div class="card-header bg10 text-white">
+                <div class="card-header bg30 text-white">
                   <h3>{{$client->name}}</h3>
                 </div>
                 <div class="card-body bg10opaque">
@@ -27,7 +27,7 @@
                   <a href="{{route('clients.edit', compact('client'))}}" class="btn btn-info">MODIFICA</a>
                   <a href="{{route('clients.index')}}" class="btn bg10 text-white">INDIETRO</a>
                 </div>
-                <div class="card-footer bg10 text-white">
+                <div class="card-footer bg30 text-white">
                   Check-In {{$client->checkIn}}
                   <span class="card-footer text-white bg-info">
                     Check-Out {{$client->checkOut}}
