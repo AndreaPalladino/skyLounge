@@ -20,7 +20,7 @@
     <div class="row my-5">
         <div class="col-12">
             <div class="card text-center mx-auto">
-                <div class="card-body bg10 text-white">
+                <div class="card-body bg30 text-white">
                   <h5 class="card-title">{{$room->name}}</h5>
                   <p class="card-text">{{$room->description}}</p>
                   <p class="card-text">{{$room->type}}</p>

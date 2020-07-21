@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-4 my-5">
                 <ul>
-                    <a href="{{route('home')}}"><li class="text-white icon icon:hover">Home</li></a>
+                    <a href="{{route('homepage')}}"><li class="text-white icon icon:hover">Home</li></a>
                     <a href="{{route('prices')}}"><li class="text-white icon icon:hover">Prezzi</li></a>
                     <a href="{{route('rooms.index')}}"><li class="text-white icon icon:hover">Camere</li></a>
                     <a href="{{route('services')}}"><li class="text-white icon icon:hover">Servizi</li></a>

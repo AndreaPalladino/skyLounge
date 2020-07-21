@@ -37,11 +37,11 @@
       
         <div class="col-4 bg-blue bg-blue:hover mb-5">
           
-                      <h3 class=" text-center text60">Paesaggio</h3>
+                      <h3 class=" text-center text60">Relax</h3>
                       <hr class="bar">
                       <div class="text-center">
-                      <p class=" text30 text-prag">Godi dei panorami più belli </p>
-                      <p class=" text30 text-prag">  visibili ovunque tu sia. </p>
+                      <p class="  text-prag">blablablablablablablablabla </p>
+                      <p class="  text-prag">  blablablablablablablablaa </p>
                     </div>
         </div>
         <div class="col-4 bg-blue bg-blue:hover mb-5">
@@ -49,17 +49,17 @@
                       <h3 class=" text-center text60">Paesaggio</h3>
                       <hr class="bar">
                       <div class="text-center">
-                      <p class=" text30 text-prag">Godi dei panorami più belli </p>
-                      <p class=" text30 text-prag">  visibili ovunque tu sia. </p>
+                      <p class="  text-prag">blablablablablablablablabla </p>
+                      <p class="  text-prag">  blablablablablablablablaa </p>
                     </div>
         </div>
         <div class="col-4 bg-blue bg-blue:hover mb-5">
           
-                      <h3 class=" text-center text60">Paesaggio</h3>
+                      <h3 class=" text-center text60">Divertimento</h3>
                       <hr class="bar">
                       <div class="text-center">
-                      <p class=" text30 text-prag">Godi dei panorami più belli </p>
-                      <p class=" text30 text-prag">  visibili ovunque tu sia. </p>
+                      <p class="  text-prag">blablablablablablablablabla </p>
+                      <p class="  text-prag">  blablablablablablablablaa </p>
                     </div>
         </div>
     
@@ -146,7 +146,7 @@
     <div class="col-12">
       <h2 class="text-center text-white">Dove Siamo</h2>
       <hr class="bar">
-      <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Heavenly%20Street,%20Los%20Angeles+(The%20Sky%20Lounge)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+      <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Heaven%20Street,%20Los%20Angeles,%20Ireland+(Sky%20Lounge)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="http://www.gps.ie/"></a></div>
     </div>
   </div>
 </div>

@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'Frontend@home')->name('home');
+Route::get('/', 'Frontend@home')->name('homepage');
 
 Route::get('/Prezzi', 'Frontend@prices')->name('prices');
 
@@ -37,3 +37,8 @@ Route::get('/Prenota/show/{client}', 'ClientController@show')->name('clients.sho
 Route::get('/Prenota/edit/{client}', 'ClientController@edit')->name('clients.edit');
 Route::put('/Prenota/update/{client}', 'ClientController@update')->name('clients.update');
 Route::delete('/Prenota/destroy/{client}', 'ClientController@destroy')->name('clients.destroy');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
