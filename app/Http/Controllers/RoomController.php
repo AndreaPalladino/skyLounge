@@ -37,7 +37,15 @@ class RoomController extends Controller
     public function store(Request $request)
     {
         $room = new Room();
-        $room=Room::create($request->all());
+        
+        $room=Room::create(
+            [ 'name'=> $request->name,
+               'description'=>$request->description,
+               'type'=>$request->type,
+               'img'=> $request->file('img')->store('public/img')
+            ] 
+        );
+        
 
         return redirect()->back();
     }

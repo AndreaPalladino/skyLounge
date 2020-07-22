@@ -28,7 +28,7 @@
         <td>{{$room->name}}</td>
         <td>{{$room->description}}</td>
         <td>{{$room->type}}</td>
-        <td><img src="{{$room->img}}" alt="" width="100" height="100" class="rounded"></td>
+        <td><img src="{{Storage::url($room->img)}}" alt="foto" width="100" height="100" class="rounded"></td>
         <td><a href="{{route('rooms.show',compact('room'))}}" class="btn btn-info">VISUALIZZA</a></td>
       </tr>
     @endforeach

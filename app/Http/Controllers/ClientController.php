@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Client;
 use Illuminate\Http\Request;
 use App\Http\Requests\ClientRequest;
+use Illuminate\Support\Facades\Auth;
 
 class ClientController extends Controller
 {
@@ -39,8 +40,11 @@ class ClientController extends Controller
     public function store(ClientRequest $request)
     {
         $client = new Client();
+        $user = Auth::user();
 
-        $client=Client::create($request->validated());
+        /* $client=Client::create($request->validated()); */
+
+        $client=$user->clients()->create($request->validated());
 
         return redirect()->back()->with('message', 'Complimenti! Prenotazione effettuata!');
     }

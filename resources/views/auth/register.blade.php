@@ -16,7 +16,7 @@
 <div class="container my-5 py-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="wrapper py-3">
+            <div class="wrapper py-3 px-2">
                 <div class="text-center text-white h2 pt-3">{{ __('Register') }}</div>
 
                 <div class="my-5">

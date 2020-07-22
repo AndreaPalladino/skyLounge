@@ -6,5 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Client extends Model
 {
-    protected $fillable=['name', 'email' , 'number', 'checkIn', 'checkOut'];
+    protected $fillable=['name', 'email' , 'number', 'checkIn', 'checkOut', 'user_id'];
+
+    public function user(){
+        return $this->belongsTo('App\User');
+    }
 }

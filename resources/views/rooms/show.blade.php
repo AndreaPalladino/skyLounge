@@ -24,7 +24,7 @@
                   <h5 class="card-title">{{$room->name}}</h5>
                   <p class="card-text">{{$room->description}}</p>
                   <p class="card-text">{{$room->type}}</p>
-                  <img src="{{$room->img}}" alt="" width="500" height="500">
+                  <img src="{{Storage::url($room->img)}}" alt="" width="500" height="500">
                   <p class="card-text my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium? Amet voluptatibus vitae est debitis, natus autem dicta totam eligendi itaque nobis animi dolorum qui deleniti, nostrum provident eveniet iste.</p>
                   <p class="card-text my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium? Amet voluptatibus vitae est debitis, natus autem dicta totam eligendi itaque nobis animi dolorum qui deleniti, nostrum provident eveniet iste.</p>
                   <p class="card-text my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium? Amet voluptatibus vitae est debitis, natus autem dicta totam eligendi itaque nobis animi dolorum qui deleniti, nostrum provident eveniet iste.</p>

@@ -30,15 +30,18 @@ Route::get('/Camere/index', 'RoomController@index')->name('rooms.index');
 Route::get('/Camere/show/{room}', 'RoomController@show')->name('rooms.show');
 
 
-Route::get('/Prenota/create', 'ClientController@create')->name('clients.create');
+/* Route::get('/Prenota/create', 'ClientController@create')->name('clients.create');
 Route::post('/Prenota/store', 'ClientController@store')->name('clients.store');
 Route::get('/Prenota/index', 'ClientController@index')->name('clients.index');
 Route::get('/Prenota/show/{client}', 'ClientController@show')->name('clients.show');
 Route::get('/Prenota/edit/{client}', 'ClientController@edit')->name('clients.edit');
 Route::put('/Prenota/update/{client}', 'ClientController@update')->name('clients.update');
 Route::delete('/Prenota/destroy/{client}', 'ClientController@destroy')->name('clients.destroy');
-
+ */
 
 Auth::routes();
+
+Route::resource('clients', 'ClientController');
+
 
 Route::get('/home', 'HomeController@index')->name('home');
