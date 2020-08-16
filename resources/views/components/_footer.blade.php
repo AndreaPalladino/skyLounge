@@ -1,7 +1,8 @@
 <footer>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-4 my-5">
+        <div class="row justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="col-4 my-5 mx-5">
                 <ul>
                     <a href="{{route('homepage')}}"><li class="text-white icon icon:hover">Home</li></a>
                     <a href="{{route('prices')}}"><li class="text-white icon icon:hover">Prezzi</li></a>
@@ -10,7 +11,7 @@
                     <a href="{{route('clients.create')}}"><li class="text-white icon icon:hover">Prenotazioni</li></a>
                 </ul>
             </div>
-            <div class="col-4 my-5">
+            <div class="col-4 my-5 mx-5">
                 <ul>
                     <li class="text-white icon icon:hover">FAQs</li>
                     <li class="text-white icon icon:hover">Privacy Policy</li>
@@ -19,7 +20,7 @@
                     <li class="text-white icon icon:hover">Dove Siamo</li>
                 </ul>
             </div>
-            <div class="col-4 my-5">
+            <div class="col-4 my-5 mx-5">
                 <ul>
                     <li class="text-white icon icon:hover">FAQs</li>
                     <li class="text-white icon icon:hover">Privacy Policy</li>
@@ -28,6 +29,7 @@
                     <li class="text-white icon icon:hover">Dove Siamo</li>
                 </ul>
             </div>
+        </div>
             <div class="col-12 my-5">
                 <hr class="hrfooter">
                 <ul class="list-unstyled list-inline social text-center">
